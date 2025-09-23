@@ -1,0 +1,3 @@
+mvn clean package -DskipTests
+ssh -i "ssh cadastrada" link-da-ec2
+scp -i "CommerceMail - key.pem" "caminho do arquivo packeage" "link da ec2":"caminho dentro da maquina ec2 que o arquivo será salvo"

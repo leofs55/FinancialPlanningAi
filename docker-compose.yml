@@ -1,0 +1,18 @@
+version: '3,8'
+services:
+  postgres:
+    container_name: FinancialPlanningAI-postgres
+    image: postgres:16
+    restart: no
+    ports:
+      - '5432:5432'
+    env_file: .env
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
