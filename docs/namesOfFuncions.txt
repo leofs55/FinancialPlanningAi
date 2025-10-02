@@ -1,0 +1,37 @@
+userEndPointCreateUser
++ userEndPointUpdateUser(UserUpdateRequest):UserUpdateResponse 
+userEndPointReadUser
++ userEndPointReadUser(UserReadRequest):UserReadResponse
+userEndPointDeleteUser
++ userEndPointDeleteUser(UserDeleteRequest):UserDeleteResponse
+
++ accountEndPointCreateAccount(AccountCreateRequest):AccountCreateResponse
++ accountEndPointListAccounts(AccountListRequest):AccountListResponse
++ accountEndPointUpdateAccount(AccountUpdateRequest):AccountUpdateResponse
++ accountEndPointDeleteAccount(AccountDeleteRequest):AccountDeleteResponse
++ accountEndPointReadAccount(AccountReadRequest):AccountReadResponse
+
++ purchaseEndPointCreatePurchase(PurchaseCreateRequest): PurchaseCreateResponse
++ purchaseEndPointUpdatePurchase(PurchaseUpdateRequest): PurchaseUpdateResponse
++ purchaseEndPointReadPurchase(PurchaseReadRequest): PurchaseReadResponse
++ purchaseEndPointListPurchases(PurchaseListRequest): PurchaseListResponse
++ purchaseEndPointDeletePurchase(PurchaseDeleteRequest): PurchaseDeleteResponse
+
++ CreateUser(user: UserEntity): UserEntity
++ ReadUser(userId: Long): UserEntity
++ UpdateUser(user: UserEntity): UserEntity
++ DeleteUser(userId: Long): boolean
+
+Funções para Account
++ CreateAccount(account: AccountEntity): AccountEntity
++ ReadAccount(accountId: Long): AccountEntity
++ UpdateAccount(account: AccountEntity): AccountEntity
++ DeleteAccount(accountId: Long): boolean
++ ListAccounts(): List<AccountEntity>
+
+Funções para Purchase
++ CreatePurchase(purchase: PurchaseEntity): PurchaseEntity
++ ReadPurchase(purchaseId: Long): PurchaseEntity
++ UpdatePurchase(purchase: PurchaseEntity): PurchaseEntity
++ DeletePurchase(purchaseId: Long): boolean
++ ListPurchases(): List<PurchaseEntity>
