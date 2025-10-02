@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="Página-1" id="bqIb-qak7_S7RW4P4oYj">
-    <mxGraphModel dx="4216" dy="1306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5728" dy="3595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,12 +8,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-1" value="Client" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1400" y="1140" width="40" height="60" as="geometry" />
+          <mxGeometry x="-1580" y="445.74" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-102" target="ysZATj4AKvBHmOA7IFUh-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-470" y="1175" as="sourcePoint" />
-            <mxPoint x="-516" y="1122.5" as="targetPoint" />
+            <mxPoint x="-490" y="733" as="sourcePoint" />
+            <mxPoint x="-536" y="680.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-10" value="End-Points" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ysZATj4AKvBHmOA7IFUh-3" vertex="1" connectable="0">
@@ -33,12 +33,12 @@
         <mxCell id="ysZATj4AKvBHmOA7IFUh-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-8" target="ysZATj4AKvBHmOA7IFUh-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteUser(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="406.25" width="340" height="107.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ProfleService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadProfile(userId: Long): ProfileEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteProfile(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="-35.75" width="340" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-12" target="ysZATj4AKvBHmOA7IFUh-48" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="608" y="698.8214285714289" as="sourcePoint" />
+            <mxPoint x="588" y="256.8214285714289" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-13" target="ysZATj4AKvBHmOA7IFUh-49" edge="1">
@@ -49,14 +49,14 @@
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-14" target="ysZATj4AKvBHmOA7IFUh-51" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="1019.9642857142859" as="sourcePoint" />
+            <mxPoint x="580" y="577.9642857142859" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-28" target="KjLvfxgo1L1Bmo2thkfd-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;AccountService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadAccount(accountId: Long): AccountEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteAccount(accountId: Long): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListAccounts(): List&amp;lt;AccountEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="858.12" width="340" height="120" as="geometry" />
+          <mxGeometry x="-180" y="416.12" width="340" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-20" target="ysZATj4AKvBHmOA7IFUh-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -71,30 +71,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;PurchaseService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ method1(Type): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-162" y="1940" width="334" height="90" as="geometry" />
+          <mxGeometry x="-182" y="1498" width="334" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-32" target="ysZATj4AKvBHmOA7IFUh-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UserController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userService: UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;userEndPointCreateUser(UserCreateRequest):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserCreateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointUpdateUser(UserUpdateRequest): UserUpdateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointReadUser(UserReadRequest): UserReadResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointDeleteUser(UserDeleteRequest): UserDeleteResponse&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="396.25" width="500" height="127.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Profile&lt;/span&gt;Controller&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ profileService: ProfileService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userEndPointCreateProfile(ProfileCreateRequest): ProfileCreateResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userEndPointUpdateProfile(ProfileUpdateRequest): ProfileUpdateResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userEndPointReadProfile(ProfileReadRequest): ProfileReadResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userEndPointDeleteProfile(ProfileDeleteRequest): ProfileDeleteResponse&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="-45.75" width="500" height="127.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-33" target="ysZATj4AKvBHmOA7IFUh-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;AccountController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accountService: AccountService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ accountEndPointCreateAccount(AccountCreateRequest): AccountCreateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accountEndPointListAccounts(AccountListRequest): AccountListResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accountEndPointUpdateAccount(AccountUpdateRequest): AccountUpdateResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accountEndPointDeleteAccount(AccountDeleteRequest): AccountDeleteResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accountEndPointReadAccount(AccountReadRequest): AccountReadResponse&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="851.87" width="500" height="132.5" as="geometry" />
+          <mxGeometry x="-780" y="409.87" width="500" height="132.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-34" target="DEBsupneUY6sA9GPhd7q-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;PurchasesController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ purchaseService:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;purchaseService&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ purchaseEndPointCreatePurchase(PurchaseCreateRequest): PurchaseCreateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ purchaseEndPointUpdatePurchase(PurchaseUpdateRequest): PurchaseUpdateResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ purchaseEndPointReadPurchase(PurchaseReadRequest): PurchaseReadResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ purchaseEndPointListPurchases(PurchaseListRequest): PurchaseListResponse&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ purchaseEndPointDeletePurchase(PurchaseDeleteRequest): PurchaseDeleteResponse&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="1410" width="500" height="135" as="geometry" />
+          <mxGeometry x="-780" y="968" width="500" height="135" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-102" target="ysZATj4AKvBHmOA7IFUh-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-470" y="1175" as="sourcePoint" />
-            <mxPoint x="-189" y="1082.5" as="targetPoint" />
+            <mxPoint x="-490" y="733" as="sourcePoint" />
+            <mxPoint x="-209" y="640.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-39" value="End-Points" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ysZATj4AKvBHmOA7IFUh-38" vertex="1" connectable="0">
@@ -104,8 +104,8 @@
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-102" target="ysZATj4AKvBHmOA7IFUh-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-470" y="1175" as="sourcePoint" />
-            <mxPoint x="-179" y="1132.5" as="targetPoint" />
+            <mxPoint x="-490" y="733" as="sourcePoint" />
+            <mxPoint x="-199" y="690.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-41" value="End-Points" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ysZATj4AKvBHmOA7IFUh-40" vertex="1" connectable="0">
@@ -115,244 +115,244 @@
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-42" target="ysZATj4AKvBHmOA7IFUh-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1051" y="459.9999999999998" as="targetPoint" />
+            <mxPoint x="1031" y="17.999999999999773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;CreateUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userGateway:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="741.5" y="270" width="240" height="75" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;CreateProfileUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;rofileRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ProfileRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="682.5" y="-175.5" width="278" height="82" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-45" target="ysZATj4AKvBHmOA7IFUh-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1051" y="459.9999999999998" as="targetPoint" />
+            <mxPoint x="1031" y="17.999999999999773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ReadUserUserCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userGateway:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="770.5" y="363.75" width="211" height="72.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ReadProfileUserCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;rofileRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ProfileRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadProfile(userId: Long): ProfileEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="731" y="-78.25" width="229.5" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-46" target="ysZATj4AKvBHmOA7IFUh-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1051" y="459.9999999999998" as="targetPoint" />
+            <mxPoint x="1031" y="17.999999999999773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UpdateUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userGateway:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="741.5" y="455" width="240" height="75" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UpdateProfileUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;rofileRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ProfileRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="683" y="13" width="278.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-47" target="ysZATj4AKvBHmOA7IFUh-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1051" y="459.9999999999998" as="targetPoint" />
+            <mxPoint x="1031" y="17.999999999999773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DeleteUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userGateway:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DeleteUser(userId: Long): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="740.5" y="550" width="240" height="80" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DeleteProfileUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;rofileRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ProfileRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteProfile(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720.5" y="108" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-48" target="ysZATj4AKvBHmOA7IFUh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="917.75" as="targetPoint" />
+            <mxPoint x="1041" y="475.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accoutGateway: A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ccoutGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="671.5" y="659.99" width="310" height="77.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ a&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;: A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ccoutRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="651.5" y="217.99" width="310" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-49" target="ysZATj4AKvBHmOA7IFUh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="917.75" as="targetPoint" />
+            <mxPoint x="1041" y="475.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReadAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accoutGateway: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadAccount(accountId: Long): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="721.5" y="769.99" width="260" height="77.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReadAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ a&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadAccount(accountId: Long): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="701.5" y="327.99" width="260" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-50" target="ysZATj4AKvBHmOA7IFUh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="917.75" as="targetPoint" />
+            <mxPoint x="1041" y="475.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-50" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UpdateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accoutGateway: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="671.5" y="878.99" width="310" height="77.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-50" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UpdateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ a&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="651.5" y="436.99" width="310" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-51" target="ysZATj4AKvBHmOA7IFUh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="917.75" as="targetPoint" />
+            <mxPoint x="1041" y="475.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DeleteAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accoutGateway: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ DeleteAccount(accountId: Long): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="741.5" y="978.74" width="240" height="82.5" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DeleteAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ a&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ DeleteAccount(accountId: Long): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="721.5" y="536.74" width="240" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-52" target="ysZATj4AKvBHmOA7IFUh-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1995" as="targetPoint" />
+            <mxPoint x="1041" y="1553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="821.5" y="1780" width="160" height="90" as="geometry" />
+          <mxGeometry x="801.5" y="1338" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-53" target="ysZATj4AKvBHmOA7IFUh-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1995" as="targetPoint" />
+            <mxPoint x="1041" y="1553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="821.5" y="1890" width="160" height="90" as="geometry" />
+          <mxGeometry x="801.5" y="1448" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-54" target="ysZATj4AKvBHmOA7IFUh-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1995" as="targetPoint" />
+            <mxPoint x="1041" y="1553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="821.5" y="2000" width="160" height="90" as="geometry" />
+          <mxGeometry x="801.5" y="1558" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-55" target="ysZATj4AKvBHmOA7IFUh-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1995" as="targetPoint" />
+            <mxPoint x="1041" y="1553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="821.5" y="2105" width="160" height="90" as="geometry" />
+          <mxGeometry x="801.5" y="1663" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-74" target="DEBsupneUY6sA9GPhd7q-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1468" y="945" as="targetPoint" />
+            <mxPoint x="1448" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysZATj4AKvBHmOA7IFUh-74" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="432.5" width="170" height="55" as="geometry" />
+        <mxCell id="ysZATj4AKvBHmOA7IFUh-74" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ProfileRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="-9.5" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-82" target="DEBsupneUY6sA9GPhd7q-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1498" y="1190" as="targetPoint" />
+            <mxPoint x="1478" y="748" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-82" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;AccountRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="894.68" width="170" height="46.88" as="geometry" />
+          <mxGeometry x="1101" y="452.67999999999995" width="170" height="46.88" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-92" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="1970" width="170" height="50" as="geometry" />
+          <mxGeometry x="1101" y="1528" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ysZATj4AKvBHmOA7IFUh-102" value="API" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1220" y="1140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1370" y="445.74" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-26" target="DEBsupneUY6sA9GPhd7q-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94" y="457.5" as="sourcePoint" />
-            <mxPoint x="550" y="290.5" as="targetPoint" />
+            <mxPoint x="74" y="15.5" as="sourcePoint" />
+            <mxPoint x="530" y="-151.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;CreateUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="267" y="272.5" width="241" height="70" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;CreateProfileUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="-169.5" width="273" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-26" target="DEBsupneUY6sA9GPhd7q-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94" y="457.5" as="sourcePoint" />
-            <mxPoint x="550" y="400.5" as="targetPoint" />
+            <mxPoint x="74" y="15.5" as="sourcePoint" />
+            <mxPoint x="530" y="-41.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ReadUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="267" y="367.5" width="210" height="65" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ReadProfileUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadProfile(userId: Long): ProfileEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="-74.5" width="233" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-26" target="DEBsupneUY6sA9GPhd7q-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94" y="457.5" as="sourcePoint" />
-            <mxPoint x="550" y="615.5" as="targetPoint" />
+            <mxPoint x="74" y="15.5" as="sourcePoint" />
+            <mxPoint x="530" y="173.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;DeleteUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteUser(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="267" y="560" width="201" height="60" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;DeleteProfileUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteProfile(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="118" width="213" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-26" target="DEBsupneUY6sA9GPhd7q-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94" y="457.5" as="sourcePoint" />
-            <mxPoint x="550" y="510.5" as="targetPoint" />
+            <mxPoint x="74" y="15.5" as="sourcePoint" />
+            <mxPoint x="530" y="68.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UpdateUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="269" y="460" width="240" height="65" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UpdateProfileUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateProfile(profile: ProfileEntity): ProfileEntity&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="249" y="18" width="281" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-28" target="DEBsupneUY6sA9GPhd7q-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="900.62" as="sourcePoint" />
-            <mxPoint x="548" y="735.62" as="targetPoint" />
+            <mxPoint x="72" y="458.62" as="sourcePoint" />
+            <mxPoint x="528" y="293.62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;CreateAccountUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="268" y="665" width="311" height="67.5" as="geometry" />
+          <mxGeometry x="248" y="223" width="311" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-28" target="DEBsupneUY6sA9GPhd7q-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="900.62" as="sourcePoint" />
-            <mxPoint x="548" y="1060.62" as="targetPoint" />
+            <mxPoint x="72" y="458.62" as="sourcePoint" />
+            <mxPoint x="528" y="618.6199999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;DeleteAccountUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ DeleteAccount(accountId: Long): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="268" y="983.7500000000001" width="240" height="72.5" as="geometry" />
+          <mxGeometry x="248" y="541.7500000000001" width="240" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-28" target="DEBsupneUY6sA9GPhd7q-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="900.62" as="sourcePoint" />
-            <mxPoint x="548" y="955.62" as="targetPoint" />
+            <mxPoint x="72" y="458.62" as="sourcePoint" />
+            <mxPoint x="528" y="513.62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UpdateAccountUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateAccount(account: AccountEntity): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="268" y="883.5" width="311" height="68.5" as="geometry" />
+          <mxGeometry x="248" y="441.5" width="311" height="68.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-28" target="DEBsupneUY6sA9GPhd7q-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="900.62" as="sourcePoint" />
-            <mxPoint x="548" y="845.62" as="targetPoint" />
+            <mxPoint x="72" y="458.62" as="sourcePoint" />
+            <mxPoint x="528" y="403.62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ReadAccountUseCase&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadAccount(accountId: Long): AccountEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="268" y="773.75" width="261" height="67.5" as="geometry" />
+          <mxGeometry x="248" y="331.75" width="261" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-31" target="DEBsupneUY6sA9GPhd7q-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91" y="1992.5" as="sourcePoint" />
-            <mxPoint x="547" y="1825.5" as="targetPoint" />
+            <mxPoint x="71" y="1550.5" as="sourcePoint" />
+            <mxPoint x="527" y="1383.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ method1(Type): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1780" width="170" height="90" as="geometry" />
+          <mxGeometry x="240" y="1338" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-31" target="DEBsupneUY6sA9GPhd7q-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91" y="1992.5" as="sourcePoint" />
-            <mxPoint x="547" y="2150.5" as="targetPoint" />
+            <mxPoint x="71" y="1550.5" as="sourcePoint" />
+            <mxPoint x="527" y="1708.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ method1(Type): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="2105" width="170" height="90" as="geometry" />
+          <mxGeometry x="240" y="1663" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ysZATj4AKvBHmOA7IFUh-31" target="DEBsupneUY6sA9GPhd7q-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91" y="1992.5" as="sourcePoint" />
-            <mxPoint x="547" y="2045.5" as="targetPoint" />
+            <mxPoint x="71" y="1550.5" as="sourcePoint" />
+            <mxPoint x="527" y="1603.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ method1(Type): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="2000" width="170" height="90" as="geometry" />
+          <mxGeometry x="240" y="1558" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-31" target="DEBsupneUY6sA9GPhd7q-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91" y="1992.5" as="sourcePoint" />
-            <mxPoint x="547" y="1935.5" as="targetPoint" />
+            <mxPoint x="71" y="1550.5" as="sourcePoint" />
+            <mxPoint x="527" y="1493.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ method1(Type): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1890" width="170" height="90" as="geometry" />
+          <mxGeometry x="240" y="1448" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-92" target="DEBsupneUY6sA9GPhd7q-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1468" y="945" as="targetPoint" />
-            <mxPoint x="1340" y="1440.5" as="sourcePoint" />
+            <mxPoint x="1448" y="503" as="targetPoint" />
+            <mxPoint x="1320" y="998.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-29" value="" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1539.9999999999995" y="1210.0000000000002" width="60" height="60" as="geometry" />
+          <mxGeometry x="1519.9999999999995" y="445.74000000000024" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-31" target="ysZATj4AKvBHmOA7IFUh-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;AgentController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="1940" width="500" height="90" as="geometry" />
+          <mxGeometry x="-780" y="1498" width="500" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-55" target="DEBsupneUY6sA9GPhd7q-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -367,89 +367,89 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;PurchaseService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadPurchase(purchaseId: Long): PurchaseEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePurchase(purchaseId: Long): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListPurchases(): List&amp;lt;PurchaseEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-162" y="1412.5" width="344" height="130" as="geometry" />
+          <mxGeometry x="-182" y="970.5" width="344" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-38" target="DEBsupneUY6sA9GPhd7q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1478.75" as="targetPoint" />
+            <mxPoint x="1041" y="1036.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;urchaseGateway&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;PurchaseGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="642" y="1220" width="339.5" height="75" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateAccountUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;urchaseRepository&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PurchaseRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="622" y="778" width="339.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-40" target="DEBsupneUY6sA9GPhd7q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1478.75" as="targetPoint" />
+            <mxPoint x="1041" y="1036.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReadPurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;urchaseGateway&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadPurchase(purchaseId: Long): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="690.5" y="1325" width="291" height="85" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReadPurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;urchaseRepository&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadPurchase(purchaseId: Long): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="670.5" y="883" width="291" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-42" target="DEBsupneUY6sA9GPhd7q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1478.75" as="targetPoint" />
+            <mxPoint x="1041" y="1036.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UpdatePurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;urchaseGateway&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="641" y="1433.75" width="340.5" height="87.5" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UpdatePurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;urchaseRepository&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="621" y="991.75" width="340.5" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-44" target="DEBsupneUY6sA9GPhd7q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1478.75" as="targetPoint" />
+            <mxPoint x="1041" y="1036.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DeletePurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;urchaseGateway&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePurchase(purchaseId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="722" y="1545" width="259.5" height="80" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DeletePurchaseUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;urchaseRepository&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePurchase(purchaseId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="702" y="1103" width="259.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-47" target="DEBsupneUY6sA9GPhd7q-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DEBsupneUY6sA9GPhd7q-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="1453.75" width="170" height="47.5" as="geometry" />
+        <mxCell id="DEBsupneUY6sA9GPhd7q-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;PurchaseRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="1011.75" width="170" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-36" target="DEBsupneUY6sA9GPhd7q-49" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93" y="1437.5" as="sourcePoint" />
-            <mxPoint x="549" y="1270.5" as="targetPoint" />
+            <mxPoint x="73" y="995.5" as="sourcePoint" />
+            <mxPoint x="529" y="828.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-49" target="DEBsupneUY6sA9GPhd7q-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;CreatePurchaseUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1225" width="342" height="65" as="geometry" />
+          <mxGeometry x="240" y="783" width="342" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-36" target="DEBsupneUY6sA9GPhd7q-51" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93" y="1437.5" as="sourcePoint" />
-            <mxPoint x="549" y="1595.5" as="targetPoint" />
+            <mxPoint x="73" y="995.5" as="sourcePoint" />
+            <mxPoint x="529" y="1153.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;DeletePurchaseUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePurchase(purchaseId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1550" width="260" height="70" as="geometry" />
+          <mxGeometry x="240" y="1108" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DEBsupneUY6sA9GPhd7q-36" target="DEBsupneUY6sA9GPhd7q-53" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93" y="1437.5" as="sourcePoint" />
-            <mxPoint x="549" y="1490.5" as="targetPoint" />
+            <mxPoint x="73" y="995.5" as="sourcePoint" />
+            <mxPoint x="529" y="1048.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UpdatePurchaseUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePurchase(purchase: PurchaseEntity): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1445" width="340" height="65" as="geometry" />
+          <mxGeometry x="240" y="1003" width="340" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DEBsupneUY6sA9GPhd7q-36" target="DEBsupneUY6sA9GPhd7q-55" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93" y="1437.5" as="sourcePoint" />
-            <mxPoint x="549" y="1380.5" as="targetPoint" />
+            <mxPoint x="73" y="995.5" as="sourcePoint" />
+            <mxPoint x="529" y="938.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ReadPurchaseUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadPurchase(purchaseId: Long): PurchaseEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1335" width="290" height="65" as="geometry" />
+          <mxGeometry x="240" y="893" width="290" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-63" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-102" target="DEBsupneUY6sA9GPhd7q-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-470" y="1272.5" as="sourcePoint" />
-            <mxPoint x="-316" y="1325.5" as="targetPoint" />
+            <mxPoint x="-490" y="830.5" as="sourcePoint" />
+            <mxPoint x="-336" y="883.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEBsupneUY6sA9GPhd7q-64" value="End-Points" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DEBsupneUY6sA9GPhd7q-63" vertex="1" connectable="0">
@@ -459,33 +459,139 @@
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KjLvfxgo1L1Bmo2thkfd-3" target="KjLvfxgo1L1Bmo2thkfd-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="1134.9642857142858" as="sourcePoint" />
+            <mxPoint x="580" y="692.9642857142858" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KjLvfxgo1L1Bmo2thkfd-2" target="ysZATj4AKvBHmOA7IFUh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="917.75" as="targetPoint" />
+            <mxPoint x="1041" y="475.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KjLvfxgo1L1Bmo2thkfd-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListAccountsUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accoutGateway: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListAccounts(): List&amp;lt;AccountEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="768.5" y="1093.74" width="213" height="82.5" as="geometry" />
+        <mxCell id="KjLvfxgo1L1Bmo2thkfd-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListAccountsUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ a&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;: A&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ccoutRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListAccounts(): List&amp;lt;AccountEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="748.5" y="651.74" width="213" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ListAccountsUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListAccounts(): List&amp;lt;AccountEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="268" y="1098.75" width="240" height="72.5" as="geometry" />
+          <mxGeometry x="248" y="656.75" width="240" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KjLvfxgo1L1Bmo2thkfd-9" target="KjLvfxgo1L1Bmo2thkfd-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KjLvfxgo1L1Bmo2thkfd-8" target="DEBsupneUY6sA9GPhd7q-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1061" y="1478.75" as="targetPoint" />
+            <mxPoint x="1041" y="1036.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KjLvfxgo1L1Bmo2thkfd-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListPurchasesUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;urchaseGateway&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseGateway&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListPurchases(): List&amp;lt;PurchaseEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="755.5" y="1650" width="226" height="90" as="geometry" />
+        <mxCell id="KjLvfxgo1L1Bmo2thkfd-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListPurchasesUseCaseImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ p&lt;span style=&quot;text-align: center;&quot;&gt;urchaseRepository&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;PurchaseRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListPurchases(): List&amp;lt;PurchaseEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="716" y="1208" width="244.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KjLvfxgo1L1Bmo2thkfd-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ListPurchasesUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ListPurchases(): List&amp;lt;PurchaseEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1660" width="230" height="70" as="geometry" />
+          <mxGeometry x="240" y="1218" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-18" target="PjRcaFmrRDqzcY0nO_Ak-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-20" target="PjRcaFmrRDqzcY0nO_Ak-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-24" target="PjRcaFmrRDqzcY0nO_Ak-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-22" target="PjRcaFmrRDqzcY0nO_Ak-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteUser(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="-455.75" width="340" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-7" target="PjRcaFmrRDqzcY0nO_Ak-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UserController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userService: UserService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;userEndPointCreateUser(UserCreateRequest):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserCreateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointUpdateUser(UserUpdateRequest): UserUpdateResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointReadUser(UserReadRequest): UserReadResponse&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ userEndPointDeleteUser(UserDeleteRequest): UserDeleteResponse&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="-465.75" width="500" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-9" target="PjRcaFmrRDqzcY0nO_Ak-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="-402.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;CreateUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ u&lt;span style=&quot;text-align: center;&quot;&gt;serRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="721.5" y="-592" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-11" target="PjRcaFmrRDqzcY0nO_Ak-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="-402.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ReadUserUserCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ u&lt;span style=&quot;text-align: center;&quot;&gt;serRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="750.5" y="-498.25" width="211" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-13" target="PjRcaFmrRDqzcY0nO_Ak-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="-402.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UpdateUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ u&lt;span style=&quot;text-align: center;&quot;&gt;serRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="721.5" y="-407" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-15" target="PjRcaFmrRDqzcY0nO_Ak-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="-402.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DeleteUserUseCaseImp&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ u&lt;span style=&quot;text-align: center;&quot;&gt;serRepository&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;UserRepository&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DeleteUser(userId: Long): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720.5" y="-312" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-16" target="DEBsupneUY6sA9GPhd7q-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UserRepository&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="-429.5" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-5" target="PjRcaFmrRDqzcY0nO_Ak-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="-404.5" as="sourcePoint" />
+            <mxPoint x="530" y="-571.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;CreateUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="-589.5" width="241" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-5" target="PjRcaFmrRDqzcY0nO_Ak-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="-404.5" as="sourcePoint" />
+            <mxPoint x="530" y="-461.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ReadUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReadUser(userId: Long): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="-494.5" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-5" target="PjRcaFmrRDqzcY0nO_Ak-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="-404.5" as="sourcePoint" />
+            <mxPoint x="530" y="-246.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;DeleteUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteUser(userId: Long): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="247" y="-302" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PjRcaFmrRDqzcY0nO_Ak-5" target="PjRcaFmrRDqzcY0nO_Ak-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="-404.5" as="sourcePoint" />
+            <mxPoint x="530" y="-351.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;UpdateUserUseCase&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateUser(user: UserEntity): UserEntity&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="249" y="-402" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ysZATj4AKvBHmOA7IFUh-102" target="PjRcaFmrRDqzcY0nO_Ak-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1310" y="178" as="sourcePoint" />
+            <mxPoint x="-840" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PjRcaFmrRDqzcY0nO_Ak-28" value="End-Points" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PjRcaFmrRDqzcY0nO_Ak-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.1282" y="-3" relative="1" as="geometry">
+            <mxPoint x="17" y="-27" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
